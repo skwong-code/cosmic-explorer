@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Optional: Smooth fonts globally */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: Custom cosmic colors */
+@theme {
+  --color-cosmic-900: #0B0D17;
+  --color-cosmic-800: #111827;
+  --color-cosmic-700: #1F2937;
+  --color-cosmic-600: #374151;
+  --color-cosmic-500: #6B7280;
+}
